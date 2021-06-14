@@ -4,7 +4,7 @@
   "description": "",
   "main": "demo.spec.js",
   "scripts": {
-    "test": "mocha *.spec.js -timeout 50000 --require @babel/register"
+    "test": "mocha homework.spec.js -timeout 50000 --require @babel/register"
   },
   "repository": {
     "type": "git",
