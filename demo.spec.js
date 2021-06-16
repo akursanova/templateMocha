@@ -20,7 +20,7 @@ describe('demo suite', () => {
        const profileName = ('.user > .dropdown > .dropdown-trigger > .button > .username');
        await page.click(profileName);
        const profileNameText = await page.textContent(profileName);
-       expect('demo').to.have.string(profileNameText);
+       expect(profileNameText).to.have.string('demo');
 
   })
 })
