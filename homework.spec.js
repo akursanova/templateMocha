@@ -1,7 +1,5 @@
 import chai from 'chai';
 import {goto, run, stop} from './framework/lib/browser';
-import moment from 'moment-timezone';
-
 
 const {expect} = chai;
 describe('homework suite', () => {
