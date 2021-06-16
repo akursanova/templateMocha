@@ -26,7 +26,9 @@
     "babel": "^6.23.0",
     "chai": "^4.3.4",
     "mocha": "^8.3.2",
-    "playwright": "^1.10.0"
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "playwright": "^1.12.2"
   },
   "devDependencies": {}
 }
